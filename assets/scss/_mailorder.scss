@@ -1,0 +1,171 @@
+/* Mail Order - Form-part Section
+================================================== */
+
+#mailorder-list {  }
+#mailorder-list th.sortable { cursor: pointer; }
+#mailorder-list th.sortable:hover { background-color: #eee; }
+#mailorder-list a.trash {  }
+
+#mailorder-list-control nav { background-color: #f5f5f5; }
+#mailorder-list-control .first-search-area { border-bottom: 1px solid #dedede; }
+
+
+#mail_order_temsilci_hata, 
+#mail_order_musteri_hata, 
+#mail_order_tarih_giris_hata, 
+#mail_order_rentacar_hata, 
+#mail_order_tarih_cikis_hata, 
+#mail_order_otel_hata,
+#mail_order_transfer_ucak_hata,
+#mail_order_transfer_otel_hata,
+#mail_order_iptal_sigorta_hata,
+#mail_order_ucret_hata,
+#mail_order_ucret_yazi_hata { display: none; }
+
+/* Form-part
+================================================== */
+#form-part {  }
+#form-prew { overflow: hidden; }
+#form-prew h6 {
+	margin: auto;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	color: #666;
+}
+#adort {
+	font-size: 1rem;
+	width: 31.25em; 
+	height:44.25em; 
+	background-color: #fff;
+	color: #404041;
+	margin: auto;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+	border: 1px solid $color-border-content;
+	.right-col { text-align: left; }
+	.pdf-logo {
+		width: 10em;
+		margin: auto;
+		img {
+			width: 100%;
+			margin-top: 1.875em;
+		}
+	}
+	.text-1 {
+		font-size: .5em;
+		width: 50em;
+		margin: auto;
+		margin-top: 3.126em;
+		text-align: left;
+		line-height: 1.5;
+	}
+	.text-2 {
+		font-size: .5em;
+		width: 50em;
+		margin: auto;
+		margin-top: 2.50em;
+		line-height: 2.4em;
+		.part {
+			font-size: 1em;
+			margin-bottom: 0.25em;
+			display: inline-block;
+			line-height: 1.2em;
+		}
+		.left-col {
+			width: 15em;
+			float: left;
+			text-align: right;
+			display: block;
+			position: relative;
+			.extra-info {
+				font-size: .4em;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				margin-bottom: -3em;
+				text-align: right;
+				line-height: 1em;
+			}
+		}
+		.right-col {
+			width: 30em;
+			float: left;
+			margin-left: 1em;
+			display: block;
+		}
+		.cards img {
+			width: 20em;
+			margin-top: -0.25em;
+		}
+		.card-num img {
+			height: 1.77em;
+			margin-top: -0.25em;
+		}
+		.card-date img {
+			height: 1.77em;
+			margin-top: -0.25em;
+		}
+		.card-ccv img {
+			height: 1.77em;
+			margin-top: -0.25em;
+		}
+	}
+	.text-3 {
+		font-size: .5em;
+		width: 50em;
+		margin: auto;
+		margin-top: 3.125em;
+		margin-bottom: 0.5em;
+		text-align: left;
+		line-height: 1.7em;
+		.title {
+			text-decoration: underline;
+			font-weight: 700;
+			margin-bottom: 1.25em;
+			margin-top: 1em;
+		}
+		.part {
+			font-size: 1.075em;
+			margin-bottom: 1em; 
+			display: inline-block; 
+		}
+	}
+	.footer {
+		font-size: 0.4375em;
+		width: 57.14em;
+		margin: auto;
+		margin-top: 6.429em;
+		margin-bottom: 0.5714em;
+		text-align: left;
+		.text-part {
+			line-height: 1.7em
+		}
+		.left-col {
+			width: 40.71em;
+			float: right;
+		}
+		.right-col {
+			width: 16.43em;
+			float: right;
+			img { width: 100%; }
+		}
+	}
+}
+
+.dikkat { color: #000; background-color: #FFD827; font-weight: 900; }
+
+/* Works on under the 1200px  */
+@media (max-width: 1199px) {
+	#adort { font-size: 14px; }	
+}
+
+/* Works on under the 992px  */
+@media (max-width: 991px) {
+	#adort { font-size: 8px; }	
+}
+
+/* Works on under the 768px  */
+@media (max-width: 767px) {
+	#form-prew { display: none; }
+}

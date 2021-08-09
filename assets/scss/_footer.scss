@@ -1,0 +1,311 @@
+/* Footer */
+footer {
+	margin-top: 50px;
+	.part-black {
+		background-color: $bg-menu-sub;
+		padding-top: 3.125em;
+		padding-bottom: 3.125em;
+		border-bottom: .5px solid rgba($color-border-content, 0.2);
+		.payment-icons {
+			font-size: 1rem;
+			&>div { opacity: .5;
+				&:hover { opacity: 1; }
+			}
+			.dadpay { background: url(../svg/dadpay-logo-white.svg) center no-repeat;
+				&:hover { background: url(../svg/dadpay-logo-light.svg) center no-repeat; }
+			}
+			.visa { background: url(../svg/visa-logo-white.svg) center no-repeat; 
+				&:hover { background: url(../svg/visa-logo.svg) center no-repeat; }
+			}
+			.master { background: url(../svg/mastercard-logo-white.svg) center no-repeat;
+				&:hover { background: url(../svg/mastercard-logo-light.svg) center no-repeat; }
+			}
+			.americanexpress { background: url(../svg/americanexpress-logo-white.svg) center no-repeat;
+				&:hover { background: url(../svg/americanexpress-logo.svg) center no-repeat; }
+			}
+		}
+		.callcenter-container {
+			color: #fff;
+			.icon { background: url(../svg/callcenter-logo-white.svg) center no-repeat; }
+			.phone { 
+				a { color: #fff; }
+			}
+		}
+	}
+	.menu {
+		font-size: 1em;
+		font-weight: 600;
+		ul {
+			font-size: 1em;
+			padding: 0;
+			margin: 0;
+			li {
+				margin: 0;
+				margin-bottom: .5em;
+				list-style: none;
+				font-size: 0.7em;
+				a {
+					color: #fff;
+					text-decoration: none;
+					&:hover { opacity: .8; }
+				}
+				&:last-child { margin-bottom: 0; }
+			}
+		}
+		&.inline-menu {
+			ul {
+				li {
+					float: left;
+					margin-right: 2.5em;
+					margin-bottom: 0;
+					&:last-child { margin-right: 0; }
+				}
+			}
+		}
+	}
+}
+#footer-contracted {
+	font-size: 1rem;
+	padding: 3.75em 0;
+	background-color: #fff;
+	border-top: 1px solid $color-border-content;
+	.owl-carousel.owl-drag .owl-item {
+		font-size: 1em;
+		padding: 0 7.188em; 
+		min-height: 2.813em;
+		border-right: 1px solid $color-border-content;
+		display: flex;
+		img { margin: auto; }
+	}
+	.owl-carousel.owl-drag .owl-item:last-child { border: none; }
+	.dadstar { width: 9em; }
+	.dadpay { width: 6.25em; }
+	.cyprus-royal { width: 7em; }
+}
+#footer-products {
+	font-size: 1rem;
+	padding: 1.3em 0;
+	background-color: #fff;
+	border-top: 1px solid $color-border-content;
+	.owl-carousel.owl-drag .owl-item {
+		font-size: 1em;
+		display: flex;
+		height: 1.75em; 
+		.pegasus { max-height: 1em; }
+		.borajet { max-height: 1.5em; }
+		.anadolujet { max-height: 0.5625em; }
+		img { margin: auto; max-height: 100%; }
+	}
+	.owl-carousel.owl-drag .owl-item:last-child { border: none; }
+}
+#footer-banks {
+	font-size: 1rem;
+	padding: 1.3em 0;
+	background-color: #fff;
+	border-top: 1px solid $color-border-content;
+	.owl-carousel.owl-drag .owl-item {
+		font-size: 1em;
+		display: flex;
+		height: 1.5em; 
+		.akbank { max-height: .5em; }
+		.albaraka { max-height: 1.3em; }
+		.citibank { max-height: 1.1em; }
+		.denizbank { max-height: 1.1em; }
+		.garanti { max-height: 1.2em; }
+		.halkbank { max-height: 1em; }
+		.hsbc { max-height: 1.1em; }
+		.ingbank { max-height: .9em; }
+		.kuveytturk { max-height: 1.3em; }
+		.odeabank { max-height: .7em; }
+		.qnb_finansbank { max-height: 1.4em; }
+		.sekerbank { max-height: .9em; }
+		.teb { max-height: 1.3em; }
+		.vakifbank { max-height: .75em; }
+		.yapikredi { max-height: .9em; }
+		.ziraat { max-height: 1.2em; }
+		img { margin: auto; max-height: 100%; }
+	}
+	.owl-carousel.owl-drag .owl-item:last-child { border: none; }
+}
+#footer-social {
+	background-color: lighten($bg-menu-sub, 5%);
+	padding: 15px 0;
+	.social-links {
+		a { color: #fff; }
+		a:hover { color: $color-primary; }
+	}
+}
+#footer-info {
+	font-size: 1rem;
+	.main {
+		.logo {
+			font-size: 1em;
+			width: 12em;
+			border-right: .5px solid rgba($color-border-content, 0.5);
+			padding-right: 2.5em;
+			margin-right: 2.5em;
+		}
+	}
+}
+#footer-pay {
+	padding: 1.625em 0;
+}
+#footer-sub {
+	font-size: 1rem;
+	background-color: $bg-menu-sub;
+	padding-top: 1.125em;
+	padding-bottom: 1.125em;
+	.dadstar {
+		background: url(../svg/dadstar-logo-white.svg) center no-repeat;
+		&:hover { background: url(../svg/dadstar-logo-light.svg) center no-repeat; }
+	}
+	.image {
+		width: 5em;
+		height: 1.125em;
+		margin-right: 1.875em;
+		opacity: .3;
+		a {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+		&:hover { opacity: 1; }
+	}
+	.text {
+		font-size: 0.625em;
+		color: #fff;
+		opacity: .3;
+	}
+}
+
+
+.payment-icons {
+	&>div {
+		width: 3.125em;
+		height: 2em;
+		float: left;
+		margin-right: 1.25em;
+		&:hover { opacity: 1; }
+		&:last-child { margin-right: 0; }
+	}
+	.dadpay { 
+		background: url(../svg/dadpay-logo.svg) center no-repeat;
+		width: 4.375em;
+	}
+	.visa { background: url(../svg/visa-logo.svg) center no-repeat; }
+	.master { 
+		background: url(../svg/mastercard-logo.svg) center no-repeat; 
+		width: 2.5em;
+	}
+	.americanexpress {
+		background: url(../svg/americanexpress-logo.svg) center no-repeat; 
+		width: 2.5em;
+	}
+}
+.google-partner-icon {
+	width: 9.125em;
+	height: 3.125em;
+	opacity: .5;
+	background: url(../svg/google_partner-logo-white.svg) center no-repeat;
+	&:hover {
+		opacity: 1;
+		background: url(../svg/google_partner-logo.svg) center no-repeat;
+	}
+}
+.tursab-icon-container {
+	display: flex;
+	cursor: pointer;
+	.tursab-icon {
+		width: 7em;
+		height: 3em;
+		background: url(../svg/tursab-logo.svg) center no-repeat;
+	}
+	.tursab-belgeno-icon {
+		width: 4em;
+		height: 4em;
+		background: url(../svg/tursab-belgeno.svg) center no-repeat;
+	}
+	&.white {
+		opacity: .5;
+		.tursab-icon { background: url(../svg/tursab-logo-white.svg) center no-repeat; }
+		.tursab-belgeno-icon { background: url(../svg/tursab-belgeno-white.svg) center no-repeat; }
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.callcenter-container {
+	color: $text-color;
+	.phone {
+		font-size: 1.25em;
+		font-weight: 700;
+		a { color: $text-color; }
+	}
+	.icon {
+		width: 2.375em;
+		height: 2.375em;
+		background: url(../svg/callcenter-logo.svg) center no-repeat;
+		margin: 0 1em;
+	}
+	.callcenter-content {
+		font-size: 0.85em;
+		line-height: 1.3em;
+		.head {
+			font-weight: 700;
+		}
+	}
+}
+
+/* Works on under the 992px  */
+@media (max-width: 991px) {
+	#footer-info { padding: 1.875em; }
+	#footer-info .main .logo {
+		padding: 0 1.25em 0.625em 1.25em;
+		margin-right: 0;
+		margin-bottom: 1.25em;
+		border-right: 0;
+		border-bottom: 1px solid rgba($color-border-content, 0.2);
+		width: 9.375em;
+		display: none;
+	}
+}
+
+/* Works on under the 768px  */
+@media (max-width: 767px) {
+	footer .menu ul li { text-align: center; }
+}
+
+/* Works on under the 576px  */
+@media (max-width: 575px) {
+	#footer-contracted {
+		font-size: .5rem;
+		.owl-carousel.owl-drag .owl-item {
+			padding: 0 5em;
+		}
+	}
+	#footer-products {
+		font-size: .5rem;
+	}
+	#footer-banks {
+		font-size: .6rem;
+	}
+	#footer-info {
+		.main { font-size: .8em; }
+		.payment-icons { font-size: .6em; }
+	}
+	
+	.social-links { 
+		font-size: .8em;
+		span { display: none; }
+	}
+	#footer-sub {
+		padding-top: .8em;
+		padding-bottom: .8em;
+		.image { width: 6em; }
+		.text { font-size: .5em; }
+	}
+	.callcenter-container { font-size: .7em; }
+	.tursab-icon-container { font-size: .6em; }
+
+}

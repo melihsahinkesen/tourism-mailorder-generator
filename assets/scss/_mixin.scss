@@ -1,0 +1,71 @@
+$base-font-size: 16;
+
+@mixin font-size($size) {
+  font-size: ($size / $base-font-size) * 1rem;
+}
+@mixin letter-spacing($spacing) {
+  letter-spacing: ($spacing / 1000) * 1em;
+}
+@mixin line-height($height, ) {
+  line-height: ($height / $base-font-size) * 1rem;
+}
+@mixin no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@mixin box-shadow-container( $horiz : 0, $vert : 0, $blur : 6px, $spread : 0, $color :rgba(0,0,0,0.05) ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow:    $horiz $vert $blur $spread $color;
+  box-shadow:         $horiz $vert $blur $spread $color;
+}
+@mixin box-shadow-content( $horiz : 0px, $vert : 0px, $blur : 10px, $spread : 0, $color :rgba(0,0,0,0.1) ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow:    $horiz $vert $blur $spread $color;
+  box-shadow:         $horiz $vert $blur $spread $color;
+}
+@mixin box-shadow-content-2( $horiz : 0px, $vert : 0px, $blur : 10px, $spread : 0, $color :rgba(0,0,0,0.2) ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow:    $horiz $vert $blur $spread $color;
+  box-shadow:         $horiz $vert $blur $spread $color;
+}
+@mixin box-shadow-object( $horiz : 1px, $vert : 1px, $blur : 2px, $spread : 0, $color :rgba(0,0,0,0.4) ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow:    $horiz $vert $blur $spread $color;
+  box-shadow:         $horiz $vert $blur $spread $color;
+}
+@mixin box-shadow-none( $horiz : 0px, $vert : 0px, $blur : 0, $spread : 0, $color :rgba(0,0,0,0.0) ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow:    $horiz $vert $blur $spread $color;
+  box-shadow:         $horiz $vert $blur $spread $color;
+}
+@mixin background-size ($size) {
+	-webkit-background-size: $size;
+	-moz-background-size:    $size;
+	-o-background-size:      $size;
+	background-size:         $size;
+}
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition:    $transition;
+  -ms-transition:     $transition;
+  -o-transition:      $transition;
+  transition:         $transition;
+}
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform:    $transform;
+  -ms-transform:     $transform;
+  -o-transform:      $transform;
+  transform:         $transform;
+}
+@mixin animation($animation) {
+  -webkit-animation: $animation;
+  -moz-animation:    $animation;
+  -ms-animation:     $animation;
+  -o-animation:      $animation;
+  animation:         $animation;
+}
