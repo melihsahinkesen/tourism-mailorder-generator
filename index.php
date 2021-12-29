@@ -198,7 +198,7 @@ include("header.php");
             <div class="text-part">Size özel müşteri temsilciniz: <span class="dikkat" id="mail_order_temsilci_box"></span></div>
             <div class="text-part">Telefon: 0850 840 63 40</div>
             <div class="text-part">E-Mail: info@tatilcikus.com</div>
-            <div class="text-part">Adres: Çınar Mahallesi, 5003/1 Sokak, No:9, Ofis:36 Bornova / İzmir / Turkey</div>
+            <div class="text-part">Adres: Mansuroğlu Mahallesi, 288/4 Sokak, No:10, Ofis:26 Bayraklı / İzmir / Turkey</div>
           </div>
         </div>
       </div>

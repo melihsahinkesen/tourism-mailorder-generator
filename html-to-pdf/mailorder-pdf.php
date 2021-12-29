@@ -222,7 +222,7 @@ $pdf->Cell(60,13,'Telefon: 0850 840 63 40',0,0,'L',0);
 $pdf->WriteHTML('<br>');
 $pdf->Cell(60,13,'E-Mail: info@tatilcikus.com',0,0,'L',0);
 $pdf->WriteHTML('<br>');
-$pdf->Cell(60,13,$cKarakterBuyuk.''.$iKarakter.'nar Mahallesi, 5003/1 Sokak, No:9, Ofis:36 Bornova / '.$iKarakterBuyuk.'zmir / Turkey',0,0,'L',0);
+$pdf->Cell(60,13,'Mansuro'.$gKarakter.'lu Mahallesi, 288/4 Sokak, No:10, Ofis:26 Bayrakl'.$iKarakter.' / '.$iKarakterBuyuk.'zmir / Turkey',0,0,'L',0);
 
 
 
