@@ -9,7 +9,7 @@ $workTimeEnd="19:00";
 // Info
 // =======================================
 $companyName="tatilcikuş";
-$companySlogan="hesaplı tatile kanat çırpın";
+$companySlogan="tatile kanat çırpın";
 $companyTag="TatileKanatÇırp";
 
 
@@ -17,8 +17,8 @@ $companyTag="TatileKanatÇırp";
 // ======================================= 
 $callNumber="+908508406340";
 $displayNumber="0850 840 63 40";
-$address="Çınar mahallesi, 5003/1 Sokak, No:9, Daire:36, 35800 Bornova/İzmir";
-$mapFrame="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.044664316905!2d27.180223515331107!3d38.44043727964367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9639c730347e9%3A0xdf422f84c839646b!2sTatilciku%C5%9F%20Seyahat%20Acentesi!5e0!3m2!1str!2str!4v1583006338654!5m2!1str!2str";
+$address="Mansuroğlu Mahallesi, 288/4 Sokak, No:10, Ofis:26 Bayraklı/İzmir";
+$mapFrame="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6249.127450996714!2d27.182292!3d38.451545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf422f84c839646b!2sTatilciku%C5%9F%20Seyahat%20Acentesi!5e0!3m2!1str!2str!4v1644851838731!5m2!1str!2str";
 
 // Accounts
 // =======================================

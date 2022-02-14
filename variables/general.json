@@ -25,9 +25,11 @@
 		"Ultra Her Şey Dahil"
 	],
 	"hotels": [
+		"Acapulco Resort & Convention & Spa & Casino & Sports",
 		"Arkın Palm Beach Hotel",
 		"Bellapais Oasis Hotel Girne",
 		"Büyük Anadolu Hotel",
+		"Chamada Prestige Hotel & Casino",
 		"Concorde Luxury Resort & Casino & Convention & Spa",
 		"Cratos Premium Hotel & Casino & Port & Spa",
 		"Denizkızı Hotel",
@@ -45,7 +47,6 @@
 		"Life Hotel",
 		"Limak Cyprus Deluxe Hotel & Casino",
 		"Lord's Palace Hotel & Spa & Casino",
-		"Malpas Hotel & Casino",
 		"Merit Crystal Cove Hotel & Casino",
 		"Merit Cyprus Gardens Resort & Casino",
 		"Merit Lefkoşa Hotel & Casino",
@@ -55,6 +56,7 @@
 		"Nuhun Gemisi Deluxe Hotel & Spa",
 		"Oscar Resort Hotel Girne",
 		"Park Palace Hotel",
+		"Pia Bella Hotel",
 		"Port View Hotel",
 		"Riverside Garden Resort",
 		"Rocks Hotel & Casino",
@@ -117,10 +119,7 @@
 		"Hasan Tellioğlu",
 		"Kaan Özçörekçi",
 		"Nesibe Özçörekçi",
-		"Yonca Odabaşı",
 		"Pınar Yorğun",
-		"Fatma Uzer",
-		"Harika Uysal",
-		"İlayda Bel"
+		"Yonca Odabaşı"
 	]
 }

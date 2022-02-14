@@ -95,7 +95,7 @@ $gelenMetin_degisenTemsilciMetin=iconv("UTF-8", "ISO-8859-9", $temsilciMetin);
 // $cee=('Hello World!' .$gelenMetin_degisen);
 $pdf->SetFont('OpenSans-Bold','B',11);
 $pdf->SetTextColor(64,64,65);
-$pdf->Cell(185,0, $today,0,0,'R'); 
+//$pdf->Cell(185,0, $today,0,0,'R'); 
 $pdf->WriteHTML('<br>');
 
 $pdf->Image('assets/img/logos/tatilcikus.png',70, $pdf->GetY(), 70);
