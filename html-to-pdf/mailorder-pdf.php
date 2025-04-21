@@ -68,7 +68,7 @@ $anaMetinEight=($transferTextOtel.' ');
 $anaMetinThirteen=($sigortaTextOtel.' ');
 $anaMetinNine=('hizmet bedeli olan ');
 $anaMetinTen=($ucret);
-$anaMetinEleven=('nin aşağıdaki kredi kartından DADSTAR TURİZM SAN. TİC. LTD. ŞTİ. adına tahsil edilmesini rica ederim/ederiz.');
+$anaMetinEleven=('nin aşağıdaki kredi kartından LOGOIPSUM TURİZM SAN. TİC. LTD. ŞTİ. adına tahsil edilmesini rica ederim/ederiz.');
 
 $textUcretYazi=($ucretYazi.' Türk Lirası');
 $temsilciMetin=('Size özel müşteri temsilciniz: '.$temsilci);
@@ -98,7 +98,7 @@ $pdf->SetTextColor(64,64,65);
 //$pdf->Cell(185,0, $today,0,0,'R'); 
 $pdf->WriteHTML('<br>');
 
-$pdf->Image('assets/img/logos/tatilcikus.png',70, $pdf->GetY(), 70);
+$pdf->Image('assets/img/logos/logoipsum.png',70, $pdf->GetY(), 70);
 
 $pdf->SetFont('OpenSans-Regular','',11);
 $pdf->SetTextColor(64,64,65);
@@ -218,16 +218,16 @@ $pdf->SetTextColor(31,35,32);
 $pdf->WriteHTML('<br>');
 $pdf->SetFont('OpenSans-Regular','',9); 
 $pdf->SetTextColor(64,64,65);
-$pdf->Cell(60,13,'Telefon: 0850 840 63 40',0,0,'L',0);
+$pdf->Cell(60,13,'Telefon: 0090 212 555 00 55',0,0,'L',0);
 $pdf->WriteHTML('<br>');
-$pdf->Cell(60,13,'E-Mail: info@tatilcikus.com',0,0,'L',0);
+$pdf->Cell(60,13,'E-Mail: info@logoipsum.com',0,0,'L',0);
 $pdf->WriteHTML('<br>');
-$pdf->Cell(60,13,'Mansuro'.$gKarakter.'lu Mahallesi, 288/4 Sokak, No:10, Ofis:26 Bayrakl'.$iKarakter.' / '.$iKarakterBuyuk.'zmir / Turkey',0,0,'L',0);
+$pdf->Cell(60,13,'Balmumcu Mahallesi, Barbaros Bulvar'.$iKarakter.' 288/4 Sokak, No:115, Kat:4, Daire:18, Be'.$sKarakter.'ikta'.$sKarakter.' / '.$iKarakterBuyuk.'stanbul / Turkey',0,0,'L',0);
 
 
 
 
 $pdf->WriteHTML3("$htmlTable2");
-$pdf->Output('Tatilcikus-Mailorderformu.pdf','D'); 
+$pdf->Output('Logoipsum-Mailorderformu.pdf','D'); 
 ob_end_flush();
 ?>

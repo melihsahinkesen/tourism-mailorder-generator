@@ -1,9 +1,9 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div id="footer-sub" class="part-black">
-			<div class="container d-flex flex-row align-items-center">
-				<div class="image dadstar"><a href="http://dadstar.co/" target="_blank"></a></div>
-				<div class="text">Her hakkı saklıdır. Dadstar © 2019-<script>document.write(new Date().getFullYear())</script>   |   Tatilcikuş bir Dadstar markasıdır. </div>	
+			<div class="container-fluid d-flex flex-row align-items-center">
+				<div class="image momstar"><a href="#" target="_blank"></a></div>
+				<div class="text">Her hakkı saklıdır. Momstar © 2016-<script>document.write(new Date().getFullYear())</script>   |   Logoipsum bir Momstar markasıdır. </div>	
 			</div>
 		</div>
 	</footer>

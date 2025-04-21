@@ -118,12 +118,12 @@ header.info-active {
 		}
 	}
 	.navbar-brand {
-		font-size: 1rem;
-		background: url(../svg/tatilcikus-logo.svg) center no-repeat; 
+		font-size: 1rem; 
 		width: 8.75em;
 		min-height: 2.625em;
 		padding: .5rem 0;
 		margin-right: 1.875em;
+		img { width: 100%; }
 	}
 	.navbar-toggler { 
 		font-size: 1em;
@@ -245,7 +245,7 @@ header.head-light {
 	#header-main {
 		background-color: rgba(#fff, 0);
 		.social-links a { color: #fff; }
-		.navbar-brand { background: url(../svg/tatilcikus-logo-white.svg) center no-repeat; }
+		.navbar-brand { background: url(../svg/example-logo-white.svg) center no-repeat; }
 		.header-content { background-color: rgba(#fff, 0); }
 		.nav-link { color: #fff; }
 		.navbar-toggler { color: #fff; }
@@ -253,7 +253,7 @@ header.head-light {
 	}
 	&.sticky { 
 		#header-main {
-			.navbar-brand { background: url(../svg/tatilcikus-logo.svg) center no-repeat; }
+			.navbar-brand { background: url(../svg/example-logo.svg) center no-repeat; }
 			.header-content {
 				background-color: #fff;
 				border-bottom: 1px solid $color-border-content;

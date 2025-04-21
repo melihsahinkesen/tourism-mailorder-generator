@@ -22,13 +22,13 @@
 
 	<!-- Twitter metas to customize link previews. -->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@TatilcikusCom" />
-	<meta name="twitter:creator" content="@TatilcikusCom" />
+	<meta name="twitter:site" content="@Logoipsum" />
+	<meta name="twitter:creator" content="@Logoipsum" />
 	<meta name="twitter:image" content="<?php echo $pageFacebookOgImage; ?>.jpg" />
 	<meta name="twitter:image:src" content="<?php echo $pageFacebookOgImage; ?>.jpg" />
 
 	<!-- Facebook Open Graph tags to customize link previews. -->
-	<meta property="og:site_name"     content="tatilcikuş" />
+	<meta property="og:site_name"     content="logoipsum" />
 	<meta property="og:url"           content="<?php echo $actual_link; ?>" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="<?php echo $page_title; ?>" />
@@ -50,13 +50,11 @@
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#669966">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
 </head>
 
 <body <?php echo ' id="p-'.$page.'" ';?> class="p-loading">
@@ -65,8 +63,10 @@
 	<header id="header">
 		<div id="header-main">
 			<div class="header-content">
-				<nav class="container navbar navbar-expand-lg">
-					<a class="navbar-brand order-1" href="index.php"></a>
+				<nav class="container-fluid navbar navbar-expand-lg">
+					<a class="navbar-brand order-1" href="index.php">
+						<img src="assets/svg/example-logo.svg" alt="Example logo">
+					</a>
 					<div class="d-flex align-items-center navbar-extras order-2 order-lg-3 ml-md-auto">
 						<div class="item d-lg-none">
 							<button class="navbar-toggler order-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,15 +74,6 @@
 							</button>
 						</div>
 					</div>
-
-					<div class="collapse navbar-collapse order-4 order-lg-2" id="navbarSupportedContent">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item d-none">
-								<a class="nav-link" href="kibris-otelleri.php">Kıbrıs Otelleri</a>
-							</li>
-						</ul>
-					</div>
-
 				</nav>
 			</div>
 		</div>
@@ -92,5 +83,3 @@
 			</div>
 		</div>
 	</header>
-
-
