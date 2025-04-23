@@ -1,4 +1,6 @@
 <?php
+include("../variables/general.php");
+
 ob_start();
 require('writehtml.php');
 error_reporting(E_ALL ^ E_NOTICE);
@@ -68,10 +70,11 @@ $anaMetinEight=($transferTextOtel.' ');
 $anaMetinThirteen=($sigortaTextOtel.' ');
 $anaMetinNine=('hizmet bedeli olan ');
 $anaMetinTen=($ucret);
-$anaMetinEleven=('nin aşağıdaki kredi kartından LOGOIPSUM TURİZM SAN. TİC. LTD. ŞTİ. adına tahsil edilmesini rica ederim/ederiz.');
+$anaMetinEleven=('nin aşağıdaki kredi kartından '.$mainCompanyName.' adına tahsil edilmesini rica ederim/ederiz.');
 
 $textUcretYazi=($ucretYazi.' Türk Lirası');
 $temsilciMetin=('Size özel müşteri temsilciniz: '.$temsilci);
+$adresMetin=$address;
 
 // Dışarıdan gelenin Font karakterini UTF-8'e değiştir.
 $gelenMetin_degisenOne=iconv("UTF-8", "ISO-8859-9", $anaMetinOne);
@@ -89,6 +92,7 @@ $gelenMetin_degisenTen=iconv("UTF-8", "ISO-8859-9", $anaMetinTen);
 $gelenMetin_degisenEleven=iconv("UTF-8", "ISO-8859-9", $anaMetinEleven);
 $gelenMetin_degisenTwelve=iconv("UTF-8", "ISO-8859-9", $textUcretYazi);
 $gelenMetin_degisenTemsilciMetin=iconv("UTF-8", "ISO-8859-9", $temsilciMetin);
+$gelenMetin_degisenAdresMetin=iconv("UTF-8", "ISO-8859-9", $adresMetin);
 
 
 // Full metinde kullanımı
@@ -98,7 +102,7 @@ $pdf->SetTextColor(64,64,65);
 //$pdf->Cell(185,0, $today,0,0,'R'); 
 $pdf->WriteHTML('<br>');
 
-$pdf->Image('assets/img/logos/logoipsum.png',70, $pdf->GetY(), 70);
+$pdf->Image('assets/img/logos/logo.png',70, $pdf->GetY(), 70);
 
 $pdf->SetFont('OpenSans-Regular','',11);
 $pdf->SetTextColor(64,64,65);
@@ -218,11 +222,11 @@ $pdf->SetTextColor(31,35,32);
 $pdf->WriteHTML('<br>');
 $pdf->SetFont('OpenSans-Regular','',9); 
 $pdf->SetTextColor(64,64,65);
-$pdf->Cell(60,13,'Telefon: 0090 212 555 00 55',0,0,'L',0);
+$pdf->Cell(60,13,'Telefon: '.$displayNumber,0,0,'L',0);
 $pdf->WriteHTML('<br>');
-$pdf->Cell(60,13,'E-Mail: info@logoipsum.com',0,0,'L',0);
+$pdf->Cell(60,13,'E-Mail: '.$email,0,0,'L',0);
 $pdf->WriteHTML('<br>');
-$pdf->Cell(60,13,'Balmumcu Mahallesi, Barbaros Bulvar'.$iKarakter.' 288/4 Sokak, No:115, Kat:4, Daire:18, Be'.$sKarakter.'ikta'.$sKarakter.' / '.$iKarakterBuyuk.'stanbul / Turkey',0,0,'L',0);
+$pdf->Cell(60,13,'Adres: '.$gelenMetin_degisenAdresMetin,0,0,'L',0);
 
 
 

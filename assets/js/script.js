@@ -64,11 +64,6 @@ $(function () {
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
-/*
-$('.popover-duyuru').popover({
-  trigger: 'focus'
-})
-*/
 
 $(document).ready(function () {
   // Mask

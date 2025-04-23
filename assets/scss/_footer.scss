@@ -78,7 +78,7 @@ footer {
 		img { margin: auto; }
 	}
 	.owl-carousel.owl-drag .owl-item:last-child { border: none; }
-	.dadstar { width: 9em; }
+	.maincompany { width: 9em; }
 	.dadpay { width: 6.25em; }
 	.cyprus-royal { width: 7em; }
 }
@@ -155,7 +155,7 @@ footer {
 	background-color: $bg-menu-sub;
 	padding-top: 1.125em;
 	padding-bottom: 1.125em;
-	.momstar {
+	.maincompany {
 		background: url(../svg/momstar-logo-white.svg) center no-repeat;
 		&:hover { background: url(../svg/momstar-logo-light.svg) center no-repeat; }
 	}

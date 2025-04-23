@@ -4,18 +4,17 @@ include("variables/general.php");
 $page="mailorder";
 $page_title= "Tourism Mailorder Generator | ".ucwords($companyName);
 $page_desc="A PHP-based PDF mail order form generator tailored for the tourism industry. Allows service selection, auto-calculates pricing, and generates ready-to-send printable forms.";
-$page_keywords="";
+$page_keywords="tourism mailorder generator, tourism mailorder, mailorder generator";
 $page_robots="noindex, nofollow, nosnippet";
 $page_abstract="";
 
-$pageFacebookOgImage="assets/img/regular/og/og-main";
 include("header.php");
 ?>
 
 <section id="form-part" class="container-fluid">
   <div class="row">
     <div class="col-xl-4 col-lg-6 col-md-7">
-      <h1>Tourism Mailorder Generator</h1>
+      <h1>Turizm Mailorder Oluşturucu</h1>
       <form action="html-to-pdf/mailorder-pdf.php" method="post" id="print" onsubmit="return isOrder(this)">
         <div class="form-row">
           <div class="form-group col-sm-4 col-6">
@@ -141,8 +140,8 @@ include("header.php");
       <div class="content bg-2">
         <h6><i class="fa fa-eye" aria-hidden="true"></i> önizleme</h6> 
         <div id="adort">
-          <div class="pdf-logo"><img src="html-to-pdf/assets/img/logos/logoipsum.png"></div>
-          <div class="text-1">Aşağıda adı ve soyadı yazılı olan kişi ve/veya kişilerin <span class="dikkat" id="mail_order_tarih_giris_box"></span> – <span class="dikkat" id="mail_order_tarih_cikis_box"></span> tarihleri arasında <span id="mail_order_otel_box"></span> <span id="rentacar_box" class="dikkat" style="display: none;">ve rentacar</span> <span id="transfer_ucak_box" class="dikkat" style="display: none;">ve uçak bileti</span> <span id="transfer_otel_box" class="dikkat" style="display: none;">ve otel transfer</span> <span id="iptal_sigorta_box" class="dikkat" style="display: none;">ve iptal sigortası</span> hizmet bedeli olan <span class="dikkat" id="mail_order_ucret_box1"></span><strong>.00TL</strong> nin yukarıdaki kredi kartından LOGOIPSUM TURİZM SAN. TİC. LTD. ŞTİ. adına tahsil edilmesini rica ederim/ederiz. </div>
+          <div class="pdf-logo"><img src="html-to-pdf/assets/img/logos/logo.png"></div>
+          <div class="text-1">Aşağıda adı ve soyadı yazılı olan kişi ve/veya kişilerin <span class="dikkat" id="mail_order_tarih_giris_box"></span> – <span class="dikkat" id="mail_order_tarih_cikis_box"></span> tarihleri arasında <span id="mail_order_otel_box"></span> <span id="rentacar_box" class="dikkat" style="display: none;">ve rentacar</span> <span id="transfer_ucak_box" class="dikkat" style="display: none;">ve uçak bileti</span> <span id="transfer_otel_box" class="dikkat" style="display: none;">ve otel transfer</span> <span id="iptal_sigorta_box" class="dikkat" style="display: none;">ve iptal sigortası</span> hizmet bedeli olan <span class="dikkat" id="mail_order_ucret_box1"></span><strong>.00TL</strong> nin yukarıdaki kredi kartından <?= $mainCompanyName?> adına tahsil edilmesini rica ederim/ederiz.</div>
           <div class="text-2">
             <div class="part">
               <div class="left-col">KREDİ KARTI SAHİBİ:</div>
@@ -196,9 +195,9 @@ include("header.php");
           </div>
           <div class="footer">
             <div class="text-part">Size özel müşteri temsilciniz: <span class="dikkat" id="mail_order_temsilci_box"></span></div>
-            <div class="text-part">Telefon: +90 212 555 00 55</div>
-            <div class="text-part">E-Mail: info@logoipsum.com</div>
-            <div class="text-part">Adres: Balmumcu Mahallesi Barbaros Bulvarı, No:115, K:4, D:18, Beşiktaş, İstanbul / Turkey</div>
+            <div class="text-part">Telefon: <?= $displayNumber ?></div>
+            <div class="text-part">E-Mail: <?= $email ?></div>
+            <div class="text-part">Adres: <?= $address ?></div>
           </div>
         </div>
       </div>
@@ -206,6 +205,4 @@ include("header.php");
   </div>
 </section>
 
-<?php
-include("footer.php");
-?>
+<?php include("footer.php"); ?>

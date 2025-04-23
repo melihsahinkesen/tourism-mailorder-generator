@@ -2,8 +2,8 @@
 	<footer id="footer">
 		<div id="footer-sub" class="part-black">
 			<div class="container-fluid d-flex flex-row align-items-center">
-				<div class="image momstar"><a href="#" target="_blank"></a></div>
-				<div class="text">Her hakkı saklıdır. Momstar © 2016-<script>document.write(new Date().getFullYear())</script>   |   Logoipsum bir Momstar markasıdır. </div>	
+				<div class="image maincompany"><a href="#" target="_blank"></a></div>
+				<div class="text">Her hakkı saklıdır. Momstar © 2019-<script>document.write(new Date().getFullYear())</script>   |   Logoipsum bir Momstar markasıdır. </div>	
 			</div>
 		</div>
 	</footer>

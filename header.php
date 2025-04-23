@@ -18,17 +18,10 @@
 	<meta name="keywords" content="<?php echo $page_keywords; ?>">
 	<meta name="robots" content="<?php echo $page_robots; ?>">
 	<meta name="abstract" content="<?php echo $page_abstract; ?>">
-	<meta name='designer' content="melih şahinkesen">
-
-	<!-- Twitter metas to customize link previews. -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@Logoipsum" />
-	<meta name="twitter:creator" content="@Logoipsum" />
-	<meta name="twitter:image" content="<?php echo $pageFacebookOgImage; ?>.jpg" />
-	<meta name="twitter:image:src" content="<?php echo $pageFacebookOgImage; ?>.jpg" />
+	<meta name='developer' content="melih şahinkesen - melihsahinkesen.com">
 
 	<!-- Facebook Open Graph tags to customize link previews. -->
-	<meta property="og:site_name"     content="logoipsum" />
+	<meta property="og:site_name"     content="tatilcikuş" />
 	<meta property="og:url"           content="<?php echo $actual_link; ?>" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="<?php echo $page_title; ?>" />
@@ -65,15 +58,8 @@
 			<div class="header-content">
 				<nav class="container-fluid navbar navbar-expand-lg">
 					<a class="navbar-brand order-1" href="index.php">
-						<img src="assets/svg/example-logo.svg" alt="Example logo">
+						<img src="assets/svg/logoipsum-logo.svg" alt="Example logo">
 					</a>
-					<div class="d-flex align-items-center navbar-extras order-2 order-lg-3 ml-md-auto">
-						<div class="item d-lg-none">
-							<button class="navbar-toggler order-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon d-flex align-items-center justify-content-center"><i class="fas fa-bars"></i></span>
-							</button>
-						</div>
-					</div>
 				</nav>
 			</div>
 		</div>
