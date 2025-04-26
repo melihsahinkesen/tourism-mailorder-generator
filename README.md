@@ -1,6 +1,6 @@
 
 # Tourism Mailorder Generator
-A PHP-based PDF mail order form generator tailored for the tourism industry. Allows service selection, auto-calculates pricing, and generates ready-to-send printable forms.
+This project is a PDF mail order form generator developed for the tourism industry. Users can create the form by selecting purchased services and manually entering agent information and price. Depending on the selections, a preview of the form is displayed in real time.
 
 ### Development Timeline
 **Design**: 2016<br/>
